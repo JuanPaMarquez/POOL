@@ -21,9 +21,8 @@ public class POOL {
         v.setVisible(true);
                
         // TODO code application logic here
- 
-        
-        
+
+
         
     }
     

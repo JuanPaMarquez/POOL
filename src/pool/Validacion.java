@@ -16,7 +16,7 @@ public String  valiDatoString(String Dato, int click){
 
         return "no";
     }
-    if ( Dato.equals("")){  ////SUPER OJO EL "" Y EL NULL SON DIFERENTES
+    if (Dato.isEmpty()){  ////SUPER OJO EL "" Y EL NULL SON DIFERENTES
         return "no";
     } else{  
         return "si";
@@ -95,7 +95,7 @@ if( click==0 ) {
     
     return "no";
 }
-    if ( Dato.equals("")){
+    if (Dato.isEmpty()){
         ////SUPER OJO EL "" Y EL NULL SON DIFERENTES
        
       return "no";
@@ -108,7 +108,7 @@ if( click==0 ) {
                 isNumeric = false;
             }
         }    
-       if(isNumeric== true ){
+       if(isNumeric){
            //  System.out.println("n.."+ Dato);
             n = Integer.parseInt(Dato) ;
          
